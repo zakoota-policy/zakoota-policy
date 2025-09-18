@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Zakoota King — Official</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#0b0b0f;color:#e9e9ee}
+    .wrap{max-width:860px;margin:0 auto;padding:40px 20px}
+    a{color:#9ac7ff;text-decoration:none} a:hover{text-decoration:underline}
+    .card{background:rgba(255,255,255,0.06);border:1px solid #2a2a33;border-radius:14px;padding:18px;margin:12px 0}
+    h1,h2{margin:0 0 12px}
+    .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+    footer{opacity:.7;margin-top:24px;font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Zakoota King</h1>
+    <p>Welcome to the official policy pages.</p>
+
+    <div class="grid">
+      <div class="card"><h2>Privacy Policy</h2><p>How we handle your data.</p><p><a href="privacy.html">Read Privacy →</a></p></div>
+      <div class="card"><h2>Terms of Use</h2><p>Rules for using the app.</p><p><a href="terms.html">Read Terms →</a></p></div>
+      <div class="card"><h2>Contact</h2><p>Need help? Reach us.</p><p><a href="contact.html">Contact →</a></p></div>
+    </div>
+
+    <footer>© <span id="y"></span> Zakoota King</footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
