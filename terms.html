@@ -1,30 +1,103 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Terms of Use — Zakoota King</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#0b0b0f;color:#e9e9ee}
-  .wrap{max-width:860px;margin:0 auto;padding:40px 20px} a{color:#9ac7ff}
-  .card{background:rgba(255,255,255,0.06);border:1px solid #2a2a33;border-radius:14px;padding:18px;margin:12px 0}
-  h1{margin:0 0 12px}
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terms of Use — Zakoota King</title>
+<meta name="description" content="Terms and conditions for using the Zakoota King app." />
+<link rel="canonical" href="/terms.html" />
+<style>
+  :root{
+    --bg:#0b0c10; --panel:#14161c; --panel-b:#252a34;
+    --txt:#e9ecf1; --muted:#b7beca; --brand:#7ab3ff;
+    --radius:16px; --pad:22px; --shadow:0 6px 30px rgba(0,0,0,.35)
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--txt);
+           font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,Arial}
+  .wrap{max-width:980px;margin:0 auto;padding:42px 18px}
+  h1{font-size:34px;margin:0 0 8px}
+  p.lead{color:var(--muted);margin:0 0 26px}
+  .card{background:var(--panel);border:1px solid var(--panel-b);
+        border-radius:var(--radius);padding:var(--pad);
+        box-shadow:var(--shadow);margin:14px 0}
+  .card h2{margin:0 0 6px}
+  a{color:var(--brand);text-decoration:none}
+  a:hover{text-decoration:underline}
+  ul{margin:10px 0 0 20px}
+  .back{margin-top:26px}
+</style>
 </head>
 <body>
-<div class="wrap">
+<main class="wrap">
   <h1>Terms of Use</h1>
-  <p>Last updated: <strong><span id="d"></span></strong></p>
+  <p class="lead">Last updated: <b id="date"></b></p>
 
-  <div class="card"><h2>Acceptance</h2><p>By using Zakoota King you agree to these Terms.</p></div>
-  <div class="card"><h2>Use of Service</h2><p>No cheating, botting, VPN abuse, emulator farming, or policy violations. We may suspend accounts for suspicious activity.</p></div>
-  <div class="card"><h2>Earnings & Withdrawals</h2><p>Earnings are virtual until successfully paid out to your chosen provider. We may adjust balances for reversed/invalid tasks, fraud, or partner rejections. Daily limits and country restrictions may apply.</p></div>
-  <div class="card"><h2>Intellectual Property</h2><p>App content is owned by us. Don’t copy, resell, or reverse engineer.</p></div>
-  <div class="card"><h2>Disclaimer</h2><p>Service is provided “as is”. We are not liable for indirect or incidental damages.</p></div>
-  <div class="card"><h2>Governing Law</h2><p>Applicable local laws will govern these Terms.</p></div>
-  <div class="card"><h2>Contact</h2><p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p></div>
+  <section class="card">
+    <h2>1. Acceptance</h2>
+    <p>By installing or using the Zakoota King application (“App”), you agree to these Terms. If you do not agree, please do not use the App.</p>
+  </section>
 
-  <p><a href="index.html">← Back</a></p>
-</div>
-<script>document.getElementById('d').textContent=new Date().toLocaleDateString()</script>
+  <section class="card">
+    <h2>2. Eligibility & Accounts</h2>
+    <p>You must be legally permitted to use the App in your country. You are responsible for the activity on your account and keeping your credentials secure.</p>
+  </section>
+
+  <section class="card">
+    <h2>3. Use of Service</h2>
+    <ul>
+      <li>No cheating, botting, emulator/VM usage, VPN abuse, or policy violations.</li>
+      <li>Do not attempt to reverse engineer, hack, scrape, or disrupt the App.</li>
+      <li>Respect the rights of others and applicable laws.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>4. Virtual Earnings & Withdrawals</h2>
+    <p>Earnings shown in the App are virtual until successfully paid to your chosen provider or wallet. We may adjust balances for reversed/invalid tasks, fraud, chargebacks, or partner rejections. Daily limits, KYC, geo and partner terms may apply.</p>
+  </section>
+
+  <section class="card">
+    <h2>5. Content & Intellectual Property</h2>
+    <p>All App content, trademarks, and code are owned by Zakoota King or its licensors. You may not copy, modify, resell, or reverse engineer any part of the App.</p>
+  </section>
+
+  <section class="card">
+    <h2>6. Termination</h2>
+    <p>We may suspend or terminate access, with or without notice, for suspected abuse, policy or legal violations, or harmful activity. On termination, your right to use the App ends immediately.</p>
+  </section>
+
+  <section class="card">
+    <h2>7. Disclaimers</h2>
+    <p>The App is provided “as is” and “as available.” We do not guarantee uninterrupted or error-free operation, or the accuracy of third-party offers and data.</p>
+  </section>
+
+  <section class="card">
+    <h2>8. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, Zakoota King shall not be liable for indirect, incidental, special, consequential, exemplary or punitive damages, or any loss of profits, data, or goodwill.</p>
+  </section>
+
+  <section class="card">
+    <h2>9. Governing Law & Disputes</h2>
+    <p>These Terms are governed by applicable local laws. Any dispute will be subject to the exclusive jurisdiction of the courts at our principal place of business, unless local law requires otherwise.</p>
+  </section>
+
+  <section class="card">
+    <h2>10. Changes to Terms</h2>
+    <p>We may update these Terms from time to time. The updated version will be posted here with a new “Last updated” date. Continued use of the App means you accept the updated Terms.</p>
+  </section>
+
+  <section class="card">
+    <h2>11. Contact</h2>
+    <p>Questions? Email us at
+      <a href="mailto:zakootakingapps@gmail.com">zakootakingapps@gmail.com</a>.
+    </p>
+  </section>
+
+  <p class="back"><a href="/">← Back to home</a></p>
+</main>
+<script>
+  document.getElementById('date').textContent = new Date().toLocaleDateString();
+</script>
 </body>
 </html>
