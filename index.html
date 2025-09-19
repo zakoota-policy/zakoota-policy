@@ -1,32 +1,58 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Zakoota King — Official</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#0b0b0f;color:#e9e9ee}
-    .wrap{max-width:860px;margin:0 auto;padding:40px 20px}
-    a{color:#9ac7ff;text-decoration:none} a:hover{text-decoration:underline}
-    .card{background:rgba(255,255,255,0.06);border:1px solid #2a2a33;border-radius:14px;padding:18px;margin:12px 0}
-    h1,h2{margin:0 0 12px}
-    .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-    footer{opacity:.7;margin-top:24px;font-size:14px}
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zakoota King — Policies</title>
+<meta name="description" content="Official policy pages for the Zakoota King app." />
+<link rel="canonical" href="/" />
+<meta property="og:title" content="Zakoota King — Policies" />
+<meta property="og:description" content="Official privacy policy, terms of use and contact for Zakoota King." />
+<meta property="og:type" content="website" />
+<style>
+  :root{
+    --bg:#0b0c10; --panel:#14161c; --panel-b:#252a34; --txt:#e9ecf1;
+    --muted:#b7beca; --brand:#7ab3ff; --accent:#9cffd0;
+    --radius:16px; --pad:22px; --shadow:0 6px 30px rgba(0,0,0,.35)
+  }
+  *{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial}
+  .wrap{max-width:980px;margin:0 auto;padding:42px 18px}
+  h1{font-size:40px;margin:0 0 10px}
+  p.lead{color:var(--muted);margin:0 0 28px}
+  .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .card{background:var(--panel);border:1px solid var(--panel-b);border-radius:var(--radius);padding:var(--pad);box-shadow:var(--shadow)}
+  .card h2{margin:0 0 6px}
+  a{color:var(--brand);text-decoration:none} a:hover{text-decoration:underline}
+  footer{color:var(--muted);margin-top:28px}
+</style>
 </head>
 <body>
-  <div class="wrap">
+  <main class="wrap">
     <h1>Zakoota King</h1>
-    <p>Welcome to the official policy pages.</p>
+    <p class="lead">Welcome to the official policy pages.</p>
 
-    <div class="grid">
-      <div class="card"><h2>Privacy Policy</h2><p>How we handle your data.</p><p><a href="privacy.html">Read Privacy →</a></p></div>
-      <div class="card"><h2>Terms of Use</h2><p>Rules for using the app.</p><p><a href="terms.html">Read Terms →</a></p></div>
-      <div class="card"><h2>Contact</h2><p>Need help? Reach us.</p><p><a href="contact.html">Contact →</a></p></div>
-    </div>
+    <section class="grid">
+      <article class="card">
+        <h2>Privacy Policy</h2>
+        <p>How we handle your data.</p>
+        <p><a href="/privacy.html">Read Privacy →</a></p>
+      </article>
+
+      <article class="card">
+        <h2>Terms of Use</h2>
+        <p>Rules for using the app.</p>
+        <p><a href="/terms.html">Read Terms →</a></p>
+      </article>
+
+      <article class="card">
+        <h2>Contact</h2>
+        <p>Need help? Reach us.</p>
+        <p><a href="/contact.html">Contact →</a></p>
+      </article>
+    </section>
 
     <footer>© <span id="y"></span> Zakoota King</footer>
-  </div>
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  </main>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
